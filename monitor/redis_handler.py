@@ -9,7 +9,7 @@ logger = get_logger(__name__)
 
 class RedisHandler:
     def __init__(self):
-        self.config = get_config()['redis']
+        self.config = get_config()["redis"]
         self.client = None
 
     async def connect(self):
@@ -66,15 +66,6 @@ class RedisHandler:
             logger.debug(traceback.format_exc())
             raise
 
-async def get_message_from_redis(client):
-    """辅助函数: 使用全局 RedisHandler 实例获取消息"""
-    handler = RedisHandler()
-    await handler.connect()
-    try:
-        return await handler.get_message()
-    finally:
-        await handler.cleanup()
-
     async def cleanup(self):
         """关闭 Redis 连接"""
         try:
@@ -83,3 +74,13 @@ async def get_message_from_redis(client):
                 logger.info("🔌 Redis 已关闭连接")
         except Exception as e:
             logger.error(f"❌ Redis 关闭连接异常: {str(e)}")
+
+
+async def get_message_from_redis(client):
+    """辅助函数: 使用临时 RedisHandler 实例获取消息"""
+    handler = RedisHandler()
+    await handler.connect()
+    try:
+        return await handler.get_message()
+    finally:
+        await handler.cleanup()
