@@ -76,7 +76,7 @@ async def login_account(phone, session_name, role):
         await forward(client, forward_chat_id, session_name)
 
         logger.info(f"[{session_name}] ✅ 转发服务运行中")
-
+        await client.disconnect()
         # ✅ 保持进程常驻（防止自动退出）
         while True:
             await asyncio.sleep(3600)
