@@ -8,77 +8,83 @@ from utils.config import get_config
 import os
 
 # 初始化全局配置
-# 从配置中获取 API_ID 和 API_HASH
-config = get_config()  
+config = get_config()
 logger = get_logger(__name__)
 
-# API 配置
+# 写死 API 配置
 API_ID = '13168695'
 API_HASH = 'ca833edfad0a8a7c86ead6a55b069cc6'
 
-# 用于存储不同角色的会话路径
-SESSION_PATH = 'sessions'
+SESSION_PATH = 'sessions'  # 根目录
 
 async def login_account(phone, session_name, role):
-    """登录主函数：monitor/forward 分支"""
-    session_folder = os.path.join(SESSION_PATH, role)  # 根据角色来分配不同的文件夹
+    session_folder = os.path.join(SESSION_PATH, role)
     logger.info(f"正在为角色 '{role}' 创建/使用会话存储文件夹: {session_folder}")
-    
+
     if not os.path.exists(session_folder):
-        os.makedirs(session_folder)  # 如果文件夹不存在就创建
+        os.makedirs(session_folder)
         logger.info(f"会话文件夹 {session_folder} 不存在，已创建")
     else:
         logger.info(f"会话文件夹 {session_folder} 已存在，无需创建")
 
-    session_path = os.path.join(session_folder, f"{session_name}_session.db")  # 为每个实例使用独立的数据库
+    session_path = os.path.join(session_folder, f"{session_name}_session.db")
 
-    # 检查是否已经存在会话文件
-    if os.path.exists(session_path):
-        logger.info(f"会话文件 {session_path} 已存在，跳过认证过程")
-        client = TelegramClient(session_path, API_ID, API_HASH)
-        await client.connect()
-        if not await client.is_user_authorized():
-            logger.warning(f"未授权账户，开始认证流程")
-            await _handle_authentication(client, phone, session_name)
-    else:
-        logger.info(f"会话文件 {session_path} 不存在，开始认证")
-        client = TelegramClient(session_path, API_ID, API_HASH)
-        await client.connect()
-        if not await client.is_user_authorized():
-            logger.warning(f"未授权账户，开始认证流程")
-            await _handle_authentication(client, phone, session_name)
+    client = TelegramClient(session_path, API_ID, API_HASH)
+    await client.connect()
+
+    if not await client.is_user_authorized():
+        logger.warning(f"未授权账户，开始认证流程")
+        await _handle_authentication(client, phone, session_name)
 
     logger.info(f"[{session_name}] ✅ 登录成功")
     write_log(session_name, {'message': '登录成功'}, f"{phone} 登录成功")
 
+    # ✅ 如果是监听角色，登录后断开连接释放 SQLite 以供监听器使用
+    if role == 'monitor':
+        await client.disconnect()
+
+    # 启动监听服务
     if role == 'monitor':
         from monitor.monitor import MonitorService
         logger.info(f"[{session_name}] 🔁 初始化监听服务 MonitorService")
-
         monitor = MonitorService([
             (session_name, API_ID, API_HASH)
         ])
-
         logger.info(f"[{session_name}] 🚀 启动监听器...")
         await monitor.start_all(config['message_pool_id'])
         logger.info(f"[{session_name}] ✅ 监听器启动完毕，保持运行中")
-
         while True:
             await asyncio.sleep(3600)
 
+    # 启动转发服务
     elif role == 'forward':
-        from forward.forwarder import Forwarder
-        logger.info(f"[{session_name}] 🚚 启动转发服务 Forwarder")
+        from forward.forward import forward  # ✅ 正确的引用方式
 
-        forwarder = Forwarder(client)
-        await forwarder.start()
+        logger.info(f"[{session_name}] 🚚 启动转发服务")
+
+        # 从配置中获取 forward_chat_id
+        account = next(
+            (a for a in config["accounts"]["forwarding_accounts"] if a["session_name"] == session_name),
+            None
+        )
+        if not account or "forward_chat_id" not in account:
+            raise ValueError(f"未找到转发账号 {session_name} 的 forward_chat_id 配置")
+
+        forward_chat_id = account["forward_chat_id"]
+
+        # 启动任务
+        await forward(client, forward_chat_id, session_name)
 
         logger.info(f"[{session_name}] ✅ 转发服务运行中")
+
+        # ✅ 保持进程常驻（防止自动退出）
         while True:
             await asyncio.sleep(3600)
 
+
+
+
 async def _handle_authentication(client, phone, session_name):
-    """处理登录验证流程"""
     try:
         logger.info(f"[{session_name}] 📩 发送验证码到 {phone}")
         await client.send_code_request(phone)
