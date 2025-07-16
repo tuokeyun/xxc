@@ -1,0 +1,351 @@
+2025-07-16 11:25:59,496 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 11:25:59,498 - __main__ - ERROR - ❌ 处理账号失败: __init__() got multiple values for argument 'session'
+2025-07-16 11:26:24,149 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 11:26:24,151 - __main__ - ERROR - ❌ 处理账号失败: __init__() got multiple values for argument 'session'
+2025-07-16 11:26:40,952 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 11:26:40,954 - __main__ - ERROR - ❌ 处理账号失败: __init__() got multiple values for argument 'session'
+2025-07-16 11:28:18,783 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 11:28:18,784 - __main__ - ERROR - ❌ 处理账号失败: __init__() got multiple values for argument 'session'
+2025-07-16 11:30:41,752 - __main__ - INFO - 正在加载 monitor 角色的账号配置：monitoring_accounts
+2025-07-16 11:30:41,752 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 11:30:41,753 - __main__ - INFO - 正在为角色 'monitor' 创建/使用会话存储文件夹: sessions/monitor
+2025-07-16 11:30:41,753 - __main__ - INFO - 初始化 TelegramClient, 会话名: user001, 存储路径: sessions/monitor/user001
+2025-07-16 11:30:41,754 - __main__ - ERROR - [user001] ❌ 登录失败: __init__() got multiple values for argument 'session'
+2025-07-16 11:30:41,754 - user001 - INFO - 登录失败 - __init__() got multiple values for argument 'session'
+2025-07-16 11:30:41,754 - __main__ - ERROR - ❌ 处理账号失败: local variable 'client' referenced before assignment
+2025-07-16 11:31:48,368 - __main__ - INFO - 正在加载 monitor 角色的账号配置：monitoring_accounts
+2025-07-16 11:31:48,368 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 11:31:48,370 - __main__ - INFO - 正在为角色 'monitor' 创建/使用会话存储文件夹: sessions/monitor
+2025-07-16 11:31:48,370 - __main__ - INFO - 初始化 TelegramClient, 会话名: user001, 存储路径: sessions/monitor/user001
+2025-07-16 11:31:48,421 - __main__ - INFO - [user001] ⏳ 正在连接账号 +258869890823 ...
+2025-07-16 11:31:51,507 - __main__ - WARNING - [user001] 未授权账户，开始认证流程
+2025-07-16 11:31:51,507 - __main__ - INFO - [user001] 📩 发送验证码到 +258869890823
+2025-07-16 11:32:06,698 - __main__ - WARNING - [user001] 检测到两步验证
+2025-07-16 11:32:12,360 - __main__ - INFO - [user001] ✅ 两步验证登录成功
+2025-07-16 11:32:12,360 - __main__ - INFO - [user001] ✅ 登录成功
+2025-07-16 11:32:12,361 - user001 - INFO - 登录成功 - +258869890823 登录成功
+2025-07-16 11:32:12,429 - __main__ - INFO - [user001] 🔁 初始化监听服务 MonitorService
+2025-07-16 11:32:12,430 - __main__ - ERROR - [user001] ❌ 登录失败: __init__() got multiple values for argument 'session'
+2025-07-16 11:32:12,431 - user001 - INFO - 登录失败 - __init__() got multiple values for argument 'session'
+2025-07-16 11:32:12,431 - user001 - INFO - 登录失败 - __init__() got multiple values for argument 'session'
+2025-07-16 11:32:12,453 - __main__ - ERROR - ❌ 处理账号失败: __init__() got multiple values for argument 'session'
+2025-07-16 11:33:27,315 - __main__ - INFO - 正在加载 monitor 角色的账号配置：monitoring_accounts
+2025-07-16 11:33:27,315 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 11:33:27,316 - __main__ - INFO - 正在为角色 'monitor' 创建/使用会话存储文件夹: sessions/monitor
+2025-07-16 11:33:27,316 - __main__ - INFO - 初始化 TelegramClient, 会话名: user001, 存储路径: sessions/monitor/user001
+2025-07-16 11:33:27,326 - __main__ - INFO - [user001] ⏳ 正在连接账号 +258869890823 ...
+2025-07-16 11:33:28,360 - __main__ - INFO - [user001] 账户已授权，跳过认证
+2025-07-16 11:33:28,361 - __main__ - INFO - [user001] ✅ 登录成功
+2025-07-16 11:33:28,362 - user001 - INFO - 登录成功 - +258869890823 登录成功
+2025-07-16 11:33:28,420 - __main__ - INFO - [user001] 🔁 初始化监听服务 MonitorService
+2025-07-16 11:33:28,421 - __main__ - ERROR - [user001] ❌ 登录失败: name 'API_ID' is not defined
+2025-07-16 11:33:28,421 - user001 - INFO - 登录失败 - name 'API_ID' is not defined
+2025-07-16 11:33:28,421 - user001 - INFO - 登录失败 - name 'API_ID' is not defined
+2025-07-16 11:33:28,432 - __main__ - ERROR - ❌ 处理账号失败: name 'API_ID' is not defined
+2025-07-16 11:41:36,404 - __main__ - INFO - 正在加载 monitor 角色的账号配置：monitoring_accounts
+2025-07-16 11:41:36,404 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 11:41:36,405 - __main__ - INFO - 正在为角色 'monitor' 创建/使用会话存储文件夹: sessions/monitor
+2025-07-16 11:41:36,405 - __main__ - INFO - 初始化 TelegramClient, 会话名: user001, 存储路径: sessions/monitor/user001
+2025-07-16 11:41:36,417 - __main__ - INFO - [user001] ⏳ 正在连接账号 +258869890823 ...
+2025-07-16 11:41:37,411 - __main__ - INFO - [user001] 账户已授权，跳过认证
+2025-07-16 11:41:37,411 - __main__ - INFO - [user001] ✅ 登录成功
+2025-07-16 11:41:37,412 - user001 - INFO - 登录成功 - +258869890823 登录成功
+2025-07-16 11:41:37,470 - __main__ - INFO - [user001] 🔁 初始化监听服务 MonitorService
+2025-07-16 11:41:37,472 - monitor.monitor - INFO - 🔌 MonitorService 初始化完成，已创建客户端实例
+2025-07-16 11:41:37,473 - __main__ - INFO - [user001] 🚀 启动监听器...
+2025-07-16 11:41:37,473 - monitor.redis_handler - INFO - ✅ Redis 已连接
+2025-07-16 11:41:37,474 - monitor.monitor - INFO - 🔌 Redis 初始化完成
+2025-07-16 11:41:37,474 - monitor.monitor - INFO - 🚀 即将启动 1 个 TelegramClient 客户端
+2025-07-16 11:41:42,636 - monitor.monitor - ERROR - [Client-0] ❌ 启动失败: database is locked
+2025-07-16 11:41:42,640 - monitor.monitor - DEBUG - Traceback (most recent call last):
+  File "/www/wwwroot/person_pool_v2/monitor/monitor.py", line 49, in start_all
+    await client.start()
+  File "/usr/local/lib/python3.8/site-packages/telethon/client/auth.py", line 135, in _start
+    await self.connect()
+  File "/usr/local/lib/python3.8/site-packages/telethon/client/telegrambaseclient.py", line 560, in connect
+    self.session.auth_key = self._sender.auth_key
+  File "/usr/local/lib/python3.8/site-packages/telethon/sessions/sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "/usr/local/lib/python3.8/site-packages/telethon/sessions/sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+2025-07-16 11:41:42,640 - monitor.monitor - INFO - ✅ 所有监听器已完成启动
+2025-07-16 11:41:42,640 - __main__ - INFO - [user001] ✅ 监听器启动完毕，保持运行中
+2025-07-16 11:45:15,570 - __main__ - INFO - 正在加载 monitor 角色的账号配置：monitoring_accounts
+2025-07-16 11:45:15,570 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 11:45:15,571 - __main__ - INFO - 正在为角色 'monitor' 创建/使用会话存储文件夹: sessions/monitor
+2025-07-16 11:45:15,571 - __main__ - INFO - 会话文件夹 sessions/monitor 不存在，已创建
+2025-07-16 11:45:15,571 - __main__ - INFO - 初始化 TelegramClient, 会话名: user001, 存储路径: sessions/monitor/user001
+2025-07-16 11:45:15,614 - __main__ - INFO - [user001] ⏳ 正在连接账号 +258869890823 ...
+2025-07-16 11:45:18,251 - __main__ - WARNING - [user001] 未授权账户，开始认证流程
+2025-07-16 11:45:18,251 - __main__ - INFO - [user001] 📩 发送验证码到 +258869890823
+2025-07-16 11:45:31,882 - __main__ - WARNING - [user001] 检测到两步验证
+2025-07-16 11:45:36,335 - __main__ - INFO - [user001] ✅ 两步验证登录成功
+2025-07-16 11:45:36,335 - __main__ - INFO - [user001] ✅ 登录成功
+2025-07-16 11:45:36,336 - user001 - INFO - 登录成功 - +258869890823 登录成功
+2025-07-16 11:45:36,393 - __main__ - INFO - [user001] 🔁 初始化监听服务 MonitorService
+2025-07-16 11:45:36,397 - monitor.monitor - INFO - 🔌 MonitorService 初始化完成，已创建客户端实例
+2025-07-16 11:45:36,397 - __main__ - INFO - [user001] 🚀 启动监听器...
+2025-07-16 11:45:36,399 - monitor.redis_handler - INFO - ✅ Redis 已连接
+2025-07-16 11:45:36,399 - monitor.monitor - INFO - 🔌 Redis 初始化完成
+2025-07-16 11:45:36,399 - monitor.monitor - INFO - 🚀 即将启动 1 个 TelegramClient 客户端
+2025-07-16 11:45:41,559 - monitor.monitor - ERROR - [Client-0] ❌ 启动失败: database is locked
+2025-07-16 11:45:41,563 - monitor.monitor - DEBUG - Traceback (most recent call last):
+  File "/www/wwwroot/person_pool_v2/monitor/monitor.py", line 49, in start_all
+    await client.start()
+  File "/usr/local/lib/python3.8/site-packages/telethon/client/auth.py", line 135, in _start
+    await self.connect()
+  File "/usr/local/lib/python3.8/site-packages/telethon/client/telegrambaseclient.py", line 560, in connect
+    self.session.auth_key = self._sender.auth_key
+  File "/usr/local/lib/python3.8/site-packages/telethon/sessions/sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "/usr/local/lib/python3.8/site-packages/telethon/sessions/sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+2025-07-16 11:45:41,563 - monitor.monitor - INFO - ✅ 所有监听器已完成启动
+2025-07-16 11:45:41,563 - __main__ - INFO - [user001] ✅ 监听器启动完毕，保持运行中
+2025-07-16 12:03:34,361 - __main__ - INFO - 正在加载 monitor 角色的账号配置：monitoring_accounts
+2025-07-16 12:03:34,361 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 12:03:34,363 - __main__ - INFO - 正在为角色 'monitor' 创建/使用会话存储文件夹: sessions/monitor
+2025-07-16 12:03:34,363 - __main__ - INFO - 会话文件夹 sessions/monitor 不存在，已创建
+2025-07-16 12:03:34,363 - __main__ - INFO - 初始化 TelegramClient, 会话名: user001, 存储路径: sessions/monitor/user001
+2025-07-16 12:03:34,403 - __main__ - INFO - [user001] ⏳ 正在连接账号 +258869890823 ...
+2025-07-16 12:03:36,986 - __main__ - WARNING - [user001] 未授权账户，开始认证流程
+2025-07-16 12:03:36,986 - __main__ - INFO - [user001] 📩 发送验证码到 +258869890823
+2025-07-16 12:03:55,514 - __main__ - WARNING - [user001] 检测到两步验证
+2025-07-16 12:04:04,008 - __main__ - INFO - [user001] ✅ 两步验证登录成功
+2025-07-16 12:04:04,009 - __main__ - INFO - [user001] ✅ 登录成功
+2025-07-16 12:04:04,010 - user001 - INFO - 登录成功 - +258869890823 登录成功
+2025-07-16 12:04:04,088 - __main__ - INFO - [user001] 🔁 初始化监听服务 MonitorService
+2025-07-16 12:04:04,123 - monitor.monitor - INFO - 🔌 MonitorService 初始化完成，已创建客户端实例
+2025-07-16 12:04:04,124 - __main__ - INFO - [user001] 🚀 启动监听器...
+2025-07-16 12:04:04,125 - monitor.redis_handler - INFO - ✅ Redis 已连接
+2025-07-16 12:04:04,125 - monitor.monitor - INFO - 🔌 Redis 初始化完成
+2025-07-16 12:04:04,125 - monitor.monitor - INFO - 🚀 即将启动 1 个 TelegramClient 客户端
+2025-07-16 12:04:47,602 - monitor.monitor - ERROR - [Client-0] ❌ 启动失败: 
+2025-07-16 12:05:18,055 - __main__ - INFO - 正在加载 monitor 角色的账号配置：monitoring_accounts
+2025-07-16 12:05:18,056 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 12:05:18,056 - __main__ - INFO - 正在为角色 'monitor' 创建/使用会话存储文件夹: sessions/monitor
+2025-07-16 12:05:18,057 - __main__ - INFO - 会话文件夹 sessions/monitor 不存在，已创建
+2025-07-16 12:05:18,057 - __main__ - INFO - 初始化 TelegramClient, 会话名: user001, 存储路径: sessions/monitor/user001
+2025-07-16 12:05:18,099 - __main__ - INFO - [user001] ⏳ 正在连接账号 +258869890823 ...
+2025-07-16 12:05:21,466 - __main__ - WARNING - [user001] 未授权账户，开始认证流程
+2025-07-16 12:05:21,467 - __main__ - INFO - [user001] 📩 发送验证码到 +258869890823
+2025-07-16 12:06:08,752 - __main__ - WARNING - [user001] 检测到两步验证
+2025-07-16 12:06:15,348 - __main__ - INFO - [user001] ✅ 两步验证登录成功
+2025-07-16 12:06:15,348 - __main__ - INFO - [user001] ✅ 登录成功
+2025-07-16 12:06:15,349 - user001 - INFO - 登录成功 - +258869890823 登录成功
+2025-07-16 12:06:15,410 - __main__ - INFO - [user001] 🔁 初始化监听服务 MonitorService
+2025-07-16 12:06:15,451 - monitor.monitor - INFO - 🔌 MonitorService 初始化完成，已创建客户端实例
+2025-07-16 12:06:15,451 - __main__ - INFO - [user001] 🚀 启动监听器...
+2025-07-16 12:06:15,453 - monitor.redis_handler - INFO - ✅ Redis 已连接
+2025-07-16 12:06:15,453 - monitor.monitor - INFO - 🔌 Redis 初始化完成
+2025-07-16 12:06:15,454 - monitor.monitor - INFO - 🚀 即将启动 1 个 TelegramClient 客户端
+2025-07-16 12:14:23,467 - __main__ - INFO - 正在加载 monitor 角色的账号配置：monitoring_accounts
+2025-07-16 12:14:23,467 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 12:14:23,467 - __main__ - ERROR - ❌ 处理账号失败: module 'asyncio' has no attribute 'run'
+2025-07-16 12:16:06,970 - __main__ - INFO - 正在加载 monitor 角色的账号配置：monitoring_accounts
+2025-07-16 12:16:06,970 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 12:16:06,971 - __main__ - INFO - 正在为角色 'monitor' 创建/使用会话存储文件夹: sessions/monitor
+2025-07-16 12:16:06,971 - __main__ - INFO - 初始化 TelegramClient, 会话名: user001, 存储路径: sessions/monitor/user001
+2025-07-16 12:16:07,009 - __main__ - INFO - [user001] ⏳ 正在连接账号 +258869890823 ...
+2025-07-16 12:16:09,652 - __main__ - WARNING - [user001] 未授权账户，开始认证流程
+2025-07-16 12:16:09,653 - __main__ - INFO - [user001] 📩 发送验证码到 +258869890823
+2025-07-16 12:16:23,478 - __main__ - WARNING - [user001] 检测到两步验证
+2025-07-16 12:16:30,265 - __main__ - INFO - [user001] ✅ 两步验证登录成功
+2025-07-16 12:16:30,265 - __main__ - INFO - [user001] ✅ 登录成功
+2025-07-16 12:16:30,267 - user001 - INFO - 登录成功 - +258869890823 登录成功
+2025-07-16 12:16:30,343 - __main__ - INFO - [user001] 🔁 初始化监听服务 MonitorService
+2025-07-16 12:16:30,378 - monitor.monitor - INFO - 🔌 MonitorService 初始化完成，已创建客户端实例
+2025-07-16 12:16:30,379 - __main__ - INFO - [user001] 🚀 启动监听器...
+2025-07-16 12:16:30,380 - monitor.redis_handler - INFO - ✅ Redis 已连接
+2025-07-16 12:16:30,380 - monitor.monitor - INFO - 🔌 Redis 初始化完成
+2025-07-16 12:16:30,380 - monitor.monitor - INFO - 🚀 即将启动 1 个 TelegramClient 客户端
+2025-07-16 12:23:06,055 - __main__ - INFO - 正在加载 monitor 角色的账号配置：monitoring_accounts
+2025-07-16 12:23:06,055 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 12:23:06,056 - __main__ - INFO - 正在为角色 'monitor' 创建/使用会话存储文件夹: sessions/monitor
+2025-07-16 12:23:06,056 - __main__ - INFO - 会话文件夹 sessions/monitor 不存在，已创建
+2025-07-16 12:23:06,056 - __main__ - INFO - 初始化 TelegramClient, 会话名: user001, 存储路径: sessions/monitor/user001.session
+2025-07-16 12:23:06,099 - __main__ - INFO - [user001] ⏳ 正在连接账号 +258869890823 ...
+2025-07-16 12:23:09,418 - __main__ - WARNING - [user001] 未授权账户，开始认证流程
+2025-07-16 12:23:09,418 - __main__ - INFO - [user001] 📩 发送验证码到 +258869890823
+2025-07-16 12:23:33,049 - __main__ - WARNING - [user001] 检测到两步验证
+2025-07-16 12:23:42,262 - __main__ - INFO - [user001] ✅ 两步验证登录成功
+2025-07-16 12:23:42,262 - __main__ - INFO - [user001] ✅ 登录成功
+2025-07-16 12:23:42,263 - user001 - INFO - 登录成功 - +258869890823 登录成功
+2025-07-16 12:23:42,335 - __main__ - INFO - [user001] 🔁 初始化监听服务 MonitorService
+2025-07-16 12:23:42,378 - monitor.monitor - INFO - 🔌 MonitorService 初始化完成，已创建客户端实例
+2025-07-16 12:23:42,379 - __main__ - INFO - [user001] 🚀 启动监听器...
+2025-07-16 12:23:42,380 - monitor.redis_handler - INFO - ✅ Redis 已连接
+2025-07-16 12:23:42,380 - monitor.monitor - INFO - 🔌 Redis 初始化完成
+2025-07-16 12:23:42,380 - monitor.monitor - INFO - 🚀 即将启动 1 个 TelegramClient 客户端
+2025-07-16 12:27:37,138 - __main__ - INFO - 正在加载 monitor 角色的账号配置：monitoring_accounts
+2025-07-16 12:27:37,138 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 12:27:37,139 - __main__ - INFO - 正在为角色 'monitor' 创建/使用会话存储文件夹: sessions/monitor
+2025-07-16 12:27:37,139 - __main__ - INFO - 会话文件夹 sessions/monitor 已存在，无需创建
+2025-07-16 12:27:37,139 - __main__ - INFO - 初始化 TelegramClient, 会话名: user001, 存储路径: sessions/monitor/user001_session
+2025-07-16 12:27:37,147 - __main__ - INFO - [user001] ⏳ 正在连接账号 +258869890823 ...
+2025-07-16 12:27:37,727 - __main__ - INFO - [user001] 连接成功，检查授权状态
+2025-07-16 12:27:37,875 - __main__ - WARNING - [user001] 未授权账户，开始认证流程
+2025-07-16 12:27:37,876 - __main__ - INFO - [user001] 📩 发送验证码到 +258869890823
+2025-07-16 12:27:40,904 - __main__ - INFO - [user001] 请输入验证码：+258869890823
+2025-07-16 12:27:54,100 - __main__ - INFO - [user001] 尝试通过验证码登录: 12149
+2025-07-16 12:27:54,393 - __main__ - WARNING - [user001] 检测到两步验证
+2025-07-16 12:27:57,523 - __main__ - INFO - [user001] 尝试通过二次验证密码登录
+2025-07-16 12:27:59,100 - __main__ - INFO - [user001] ✅ 两步验证登录成功
+2025-07-16 12:27:59,101 - __main__ - INFO - [user001] ✅ 登录成功
+2025-07-16 12:27:59,102 - user001 - INFO - 登录成功 - +258869890823 登录成功
+2025-07-16 12:27:59,156 - __main__ - INFO - [user001] 🔁 初始化监听服务 MonitorService
+2025-07-16 12:27:59,158 - monitor.monitor - INFO - 🔌 MonitorService 初始化完成，已创建客户端实例
+2025-07-16 12:27:59,158 - __main__ - INFO - [user001] 🚀 启动监听器...
+2025-07-16 12:27:59,159 - monitor.redis_handler - INFO - ✅ Redis 已连接
+2025-07-16 12:27:59,159 - monitor.monitor - INFO - 🔌 Redis 初始化完成
+2025-07-16 12:27:59,160 - monitor.monitor - INFO - 🚀 即将启动 1 个 TelegramClient 客户端
+2025-07-16 12:28:04,317 - monitor.monitor - ERROR - [Client-0] ❌ 启动失败: database is locked
+2025-07-16 12:28:04,322 - monitor.monitor - DEBUG - Traceback (most recent call last):
+  File "/www/wwwroot/person_pool_v2/monitor/monitor.py", line 49, in start_all
+    await client.start()
+  File "/usr/local/lib/python3.8/site-packages/telethon/client/auth.py", line 135, in _start
+    await self.connect()
+  File "/usr/local/lib/python3.8/site-packages/telethon/client/telegrambaseclient.py", line 560, in connect
+    self.session.auth_key = self._sender.auth_key
+  File "/usr/local/lib/python3.8/site-packages/telethon/sessions/sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "/usr/local/lib/python3.8/site-packages/telethon/sessions/sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+2025-07-16 12:28:04,322 - monitor.monitor - INFO - ✅ 所有监听器已完成启动
+2025-07-16 12:28:04,322 - __main__ - INFO - [user001] ✅ 监听器启动完毕，保持运行中
+2025-07-16 12:29:21,015 - __main__ - INFO - 正在加载 monitor 角色的账号配置：monitoring_accounts
+2025-07-16 12:29:21,015 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 12:29:21,017 - __main__ - INFO - 正在为角色 'monitor' 创建/使用会话存储文件夹: sessions/monitor
+2025-07-16 12:29:21,018 - __main__ - INFO - 会话文件夹 sessions/monitor 已存在，无需创建
+2025-07-16 12:29:21,018 - __main__ - INFO - 初始化 TelegramClient, 会话名: user001, 存储路径: sessions/monitor/user001_session
+2025-07-16 12:29:21,069 - __main__ - INFO - [user001] ⏳ 正在连接账号 +258869890823 ...
+2025-07-16 12:29:23,593 - __main__ - INFO - [user001] 连接成功，检查授权状态
+2025-07-16 12:29:23,785 - __main__ - WARNING - [user001] 未授权账户，开始认证流程
+2025-07-16 12:29:23,786 - __main__ - INFO - [user001] 📩 发送验证码到 +258869890823
+2025-07-16 12:29:26,757 - __main__ - INFO - [user001] 请输入验证码：+258869890823
+2025-07-16 12:29:42,394 - __main__ - INFO - [user001] 尝试通过验证码登录: 13731
+2025-07-16 12:29:42,693 - __main__ - WARNING - [user001] 检测到两步验证
+2025-07-16 12:29:47,825 - __main__ - INFO - [user001] 尝试通过二次验证密码登录
+2025-07-16 12:29:49,351 - __main__ - INFO - [user001] ✅ 两步验证登录成功
+2025-07-16 12:29:49,351 - __main__ - INFO - [user001] ✅ 登录成功
+2025-07-16 12:29:49,352 - user001 - INFO - 登录成功 - +258869890823 登录成功
+2025-07-16 12:29:49,403 - __main__ - INFO - [user001] 🔁 初始化监听服务 MonitorService
+2025-07-16 12:29:49,405 - monitor.monitor - INFO - 🔌 MonitorService 初始化完成，已创建客户端实例
+2025-07-16 12:29:49,405 - __main__ - INFO - [user001] 🚀 启动监听器...
+2025-07-16 12:29:49,406 - monitor.redis_handler - INFO - ✅ Redis 已连接
+2025-07-16 12:29:49,406 - monitor.monitor - INFO - 🔌 Redis 初始化完成
+2025-07-16 12:29:49,406 - monitor.monitor - INFO - 🚀 即将启动 1 个 TelegramClient 客户端
+2025-07-16 12:29:54,563 - monitor.monitor - ERROR - [Client-0] ❌ 启动失败: database is locked
+2025-07-16 12:29:54,567 - monitor.monitor - DEBUG - Traceback (most recent call last):
+  File "/www/wwwroot/person_pool_v2/monitor/monitor.py", line 49, in start_all
+    await client.start()
+  File "/usr/local/lib/python3.8/site-packages/telethon/client/auth.py", line 135, in _start
+    await self.connect()
+  File "/usr/local/lib/python3.8/site-packages/telethon/client/telegrambaseclient.py", line 560, in connect
+    self.session.auth_key = self._sender.auth_key
+  File "/usr/local/lib/python3.8/site-packages/telethon/sessions/sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "/usr/local/lib/python3.8/site-packages/telethon/sessions/sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+2025-07-16 12:29:54,568 - monitor.monitor - INFO - ✅ 所有监听器已完成启动
+2025-07-16 12:29:54,568 - __main__ - INFO - [user001] ✅ 监听器启动完毕，保持运行中
+2025-07-16 12:31:45,808 - __main__ - INFO - 正在加载 monitor 角色的账号配置：monitoring_accounts
+2025-07-16 12:31:45,808 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 12:31:45,809 - __main__ - INFO - 正在为角色 'monitor' 创建/使用会话存储文件夹: sessions/monitor
+2025-07-16 12:31:45,809 - __main__ - INFO - 会话文件夹 sessions/monitor 已存在，无需创建
+2025-07-16 12:31:45,809 - __main__ - INFO - 初始化 TelegramClient, 会话名: user001, 存储路径: sessions/monitor/user001_session.db
+2025-07-16 12:31:45,850 - __main__ - INFO - [user001] ⏳ 正在连接账号 +258869890823 ...
+2025-07-16 12:31:48,121 - __main__ - INFO - [user001] 连接成功，检查授权状态
+2025-07-16 12:31:48,273 - __main__ - WARNING - [user001] 未授权账户，开始认证流程
+2025-07-16 12:31:48,273 - __main__ - INFO - [user001] 📩 发送验证码到 +258869890823
+2025-07-16 12:31:51,485 - __main__ - INFO - [user001] 请输入验证码：+258869890823
+2025-07-16 12:32:49,502 - __main__ - ERROR - [user001] ❌ 认证流程失败: 
+2025-07-16 12:33:43,666 - __main__ - INFO - 正在加载 monitor 角色的账号配置：monitoring_accounts
+2025-07-16 12:33:43,666 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 12:33:43,667 - __main__ - INFO - 正在为角色 'monitor' 创建/使用会话存储文件夹: sessions/monitor
+2025-07-16 12:33:43,667 - __main__ - INFO - 会话文件夹 sessions/monitor 不存在，已创建
+2025-07-16 12:33:43,667 - __main__ - INFO - 会话文件 sessions/monitor/user001_session.db 不存在，开始认证
+2025-07-16 12:33:46,302 - __main__ - WARNING - 未授权账户，开始认证流程
+2025-07-16 12:33:46,303 - __main__ - INFO - [user001] 📩 发送验证码到 +258869890823
+2025-07-16 12:33:58,420 - __main__ - WARNING - [user001] 检测到两步验证
+2025-07-16 12:34:03,449 - __main__ - INFO - [user001] ✅ 两步验证登录成功
+2025-07-16 12:34:03,449 - __main__ - INFO - [user001] ✅ 登录成功
+2025-07-16 12:34:03,450 - user001 - INFO - 登录成功 - +258869890823 登录成功
+2025-07-16 12:34:03,517 - __main__ - INFO - [user001] 🔁 初始化监听服务 MonitorService
+2025-07-16 12:34:03,554 - monitor.monitor - INFO - 🔌 MonitorService 初始化完成，已创建客户端实例
+2025-07-16 12:34:03,556 - __main__ - INFO - [user001] 🚀 启动监听器...
+2025-07-16 12:34:03,557 - monitor.redis_handler - INFO - ✅ Redis 已连接
+2025-07-16 12:34:03,557 - monitor.monitor - INFO - 🔌 Redis 初始化完成
+2025-07-16 12:34:03,557 - monitor.monitor - INFO - 🚀 即将启动 1 个 TelegramClient 客户端
+2025-07-16 12:34:28,809 - monitor.monitor - ERROR - [Client-0] ❌ 启动失败: 
+2025-07-16 12:34:35,661 - __main__ - INFO - 正在加载 monitor 角色的账号配置：monitoring_accounts
+2025-07-16 12:34:35,661 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 12:34:35,662 - __main__ - INFO - 正在为角色 'monitor' 创建/使用会话存储文件夹: sessions/monitor
+2025-07-16 12:34:35,662 - __main__ - INFO - 会话文件夹 sessions/monitor 已存在，无需创建
+2025-07-16 12:34:35,662 - __main__ - INFO - 会话文件 sessions/monitor/user001_session.db 不存在，开始认证
+2025-07-16 12:34:36,762 - __main__ - INFO - [user001] ✅ 登录成功
+2025-07-16 12:34:36,763 - user001 - INFO - 登录成功 - +258869890823 登录成功
+2025-07-16 12:34:36,820 - __main__ - INFO - [user001] 🔁 初始化监听服务 MonitorService
+2025-07-16 12:34:36,822 - monitor.monitor - INFO - 🔌 MonitorService 初始化完成，已创建客户端实例
+2025-07-16 12:34:36,822 - __main__ - INFO - [user001] 🚀 启动监听器...
+2025-07-16 12:34:36,823 - monitor.redis_handler - INFO - ✅ Redis 已连接
+2025-07-16 12:34:36,823 - monitor.monitor - INFO - 🔌 Redis 初始化完成
+2025-07-16 12:34:36,824 - monitor.monitor - INFO - 🚀 即将启动 1 个 TelegramClient 客户端
+2025-07-16 12:37:26,501 - __main__ - INFO - 正在加载 monitor 角色的账号配置：monitoring_accounts
+2025-07-16 12:37:26,501 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 12:37:26,502 - __main__ - INFO - 正在为角色 'monitor' 创建/使用会话存储文件夹: sessions/monitor
+2025-07-16 12:37:26,502 - __main__ - INFO - 会话文件夹 sessions/monitor 已存在，无需创建
+2025-07-16 12:37:26,503 - __main__ - INFO - 会话文件 sessions/monitor/user001_session.db 不存在，开始认证
+2025-07-16 12:37:27,588 - __main__ - INFO - [user001] ✅ 登录成功
+2025-07-16 12:37:27,589 - user001 - INFO - 登录成功 - +258869890823 登录成功
+2025-07-16 12:37:27,651 - __main__ - INFO - [user001] 🔁 初始化监听服务 MonitorService
+2025-07-16 12:37:27,653 - monitor.monitor - INFO - 🔌 MonitorService 初始化完成，已创建客户端实例
+2025-07-16 12:37:27,653 - __main__ - INFO - [user001] 🚀 启动监听器...
+2025-07-16 12:37:27,654 - monitor.redis_handler - INFO - ✅ Redis 已连接
+2025-07-16 12:37:27,655 - monitor.monitor - INFO - 🔌 Redis 初始化完成
+2025-07-16 12:37:27,655 - monitor.monitor - INFO - 🚀 即将启动 1 个 TelegramClient 客户端
+2025-07-16 12:37:32,820 - monitor.monitor - ERROR - [Client-0] ❌ 启动失败: database is locked
+2025-07-16 12:37:32,823 - monitor.monitor - DEBUG - Traceback (most recent call last):
+  File "/www/wwwroot/person_pool_v2/monitor/monitor.py", line 49, in start_all
+    await client.start()
+  File "/usr/local/lib/python3.8/site-packages/telethon/client/auth.py", line 135, in _start
+    await self.connect()
+  File "/usr/local/lib/python3.8/site-packages/telethon/client/telegrambaseclient.py", line 560, in connect
+    self.session.auth_key = self._sender.auth_key
+  File "/usr/local/lib/python3.8/site-packages/telethon/sessions/sqlite.py", line 180, in auth_key
+    self._update_session_table()
+  File "/usr/local/lib/python3.8/site-packages/telethon/sessions/sqlite.py", line 194, in _update_session_table
+    c.execute('delete from sessions')
+sqlite3.OperationalError: database is locked
+
+2025-07-16 12:37:32,823 - monitor.monitor - INFO - ✅ 所有监听器已完成启动
+2025-07-16 12:37:32,824 - __main__ - INFO - [user001] ✅ 监听器启动完毕，保持运行中
+2025-07-16 12:40:46,354 - __main__ - INFO - 正在加载 monitor 角色的账号配置：monitoring_accounts
+2025-07-16 12:40:46,354 - __main__ - INFO - 准备登录账号: +258869890823 - 会话: user001
+2025-07-16 12:40:46,355 - __main__ - INFO - 正在为角色 'monitor' 创建/使用会话存储文件夹: sessions/monitor
+2025-07-16 12:40:46,355 - __main__ - INFO - 会话文件夹 sessions/monitor 已存在，无需创建
+2025-07-16 12:40:46,355 - __main__ - INFO - 会话文件 sessions/monitor/user001_session.db 不存在，开始认证
+2025-07-16 12:40:47,438 - __main__ - INFO - [user001] ✅ 登录成功
+2025-07-16 12:40:47,439 - user001 - INFO - 登录成功 - +258869890823 登录成功
+2025-07-16 12:40:47,505 - __main__ - INFO - [user001] 🔁 初始化监听服务 MonitorService
+2025-07-16 12:40:47,507 - monitor.monitor - INFO - 🔌 MonitorService 初始化完成，已创建客户端实例
+2025-07-16 12:40:47,508 - __main__ - INFO - [user001] 🚀 启动监听器...
+2025-07-16 12:40:47,509 - monitor.redis_handler - INFO - ✅ Redis 已连接
+2025-07-16 12:40:47,509 - monitor.monitor - INFO - 🔌 Redis 初始化完成
+2025-07-16 12:40:47,510 - monitor.monitor - INFO - 🚀 即将启动 1 个 TelegramClient 客户端
+2025-07-16 12:40:49,510 - monitor.monitor - ERROR - [Client-0] ❌ 启动失败: 'TelegramClient' object has no attribute 'session_name'
+2025-07-16 12:40:49,512 - monitor.monitor - DEBUG - Traceback (most recent call last):
+  File "/www/wwwroot/person_pool_v2/monitor/monitor.py", line 53, in start_all
+    logger.info(f"[Client-{idx}] 启动客户端 {client.session_name}")
+AttributeError: 'TelegramClient' object has no attribute 'session_name'
+
+2025-07-16 12:40:49,512 - monitor.monitor - INFO - ✅ 所有监听器已完成启动
+2025-07-16 12:40:49,512 - __main__ - INFO - [user001] ✅ 监听器启动完毕，保持运行中
