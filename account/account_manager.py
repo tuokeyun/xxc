@@ -1,6 +1,6 @@
 import asyncio
 from telethon import TelegramClient
-from config import get_config
+from utils.config import get_config
 from utils.logger import write_log
 
 class AccountManager:
