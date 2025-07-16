@@ -1,8 +1,8 @@
 import json
 import random
-from redis_handler import get_message_from_redis
+import asyncio
+from monitor.redis_handler import get_message_from_redis
 from utils.logger import write_log
-from config import get_config
 
 MIN_DELAY = 1
 MAX_DELAY = 3

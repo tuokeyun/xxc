@@ -1,7 +1,7 @@
 import asyncio
 from telethon import TelegramClient
-from forwarder import forward_message_from_redis
-from config import get_config
+from forward.forwarder import forward_message_from_redis
+from utils.config import get_config
 
 # 获取配置
 config = get_config()
